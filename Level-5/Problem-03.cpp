@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-int ReadPositiveNumbwe(string Message)
+int ReadPositiveNumber(string Message)
 {
 	int Number = 0;
 	do
@@ -35,6 +35,6 @@ void PrintResults(int Number)
 
 int main()
 {
-	PrintResults(ReadPositiveNumbwe("Please Enter a Positive Number ? "));
+	PrintResults(ReadPositiveNumber("Please Enter a Positive Number ? "));
 	return 0;
 };
