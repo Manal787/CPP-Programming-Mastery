@@ -25,3 +25,4 @@ int main()
 	float A, H;
 	ReadNumbers(A, H);
 	PrintResult(TriangleArea(A, H));
+};
