@@ -1,6 +1,6 @@
 enum enPrimNotPrime{Prime=1,NotPrime=2};
 
-int ReadPositiveNumbwe(string Message)
+int ReadPositiveNumbre(string Message)
 {
 	int Number = 0;
 	do
