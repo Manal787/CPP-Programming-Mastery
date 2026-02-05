@@ -45,6 +45,7 @@ void CopyArrayUsingAddArrayElement(int arrSource[100], int arrDestination[100], 
 }
 int main()
 {
+    srand((unsigned)time(NULL));
     int arr[100];
     int arrLength=0;
     int arr2Length = 0;
