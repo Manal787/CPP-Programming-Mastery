@@ -17,7 +17,7 @@ void FillArrayWithRandomNumber(int arr[100], int& arrLength)
 
     for (int i = 0; i < arrLength; i++)
     {
-        arr[i] = RandomNumber(1, 100);
+        arr[i] = RandomNumber(-100, 100);
     }
 }
 
