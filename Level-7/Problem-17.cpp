@@ -59,11 +59,6 @@ int main()
 	cout << "\nPlease Enter the number to look for in matrix? ";
 	cin >> Number;
 
-	if (CountNumberInMatrix(Matrix1, Number, 3, 3) > 0)
-		cout << "\nYes it is there.\n";
-	else
-		cout << "\nNo: It's NOT there.\n";
-
 	if (IsNumberInMatrix(Matrix1,Number, 3, 3))
 		cout << "\n Yes:It is there.\n";
 	  else 
