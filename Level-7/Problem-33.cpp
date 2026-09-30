@@ -3,7 +3,7 @@
 #include<string>
 #include<cstdlib>
 using namespace std;
-string ReadChar()
+string ReadString()
 {
 	string S1;
 	cout << "\nPlease Enter Your String ?\n";
@@ -30,7 +30,7 @@ short CountVowels(string S1)
 
 int main()
 {
-	 string S1 = ReadChar();
+	 string S1 = ReadString();
       	 
 	 cout << "\nNumber of vowels is:" << CountVowels(S1);
 
